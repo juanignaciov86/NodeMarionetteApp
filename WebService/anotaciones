@@ -1,0 +1,7 @@
+levantando node-debug corremos la app inicialmente que luego va a levantar el puerto 8081 para escuchar
+
+Estuve viendo como integrar el servicio con la aplicacion siendo que el javascipt que se va a ejecutar posiblemente tenga que ser
+proveido por el servicio con express, luego estuve buscando esqueletos de aplicaciones con marionette y requirejs, hay que darle forma a eso para poder comenzar
+con el servicio y proveer una api que entreggue informacion del sitio imdb bien detallada.
+Habria que buscar un gestor de versiones para ir commitiando aunque sea de forma local.
+luego se puede buscar un servicio gratuito, si es git hub esta perfecto.
