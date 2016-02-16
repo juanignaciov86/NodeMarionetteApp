@@ -3,3 +3,16 @@ http://www.zsoltnagy.eu/setting-up-a-backbone-marionette-application/
 
 Se puede sguir con la siguiente documentación:
 https://marionette.gitbooks.io/marionette-guides/content/en/getting_started/index.html
+
+
+bowerrc
+{
+  "directory" : "bower_components",
+  "json"      : "bower.json",
+  "endpoint"  : "https://Bower.herokuapp.com",
+  "searchpath"  : "",
+  "shorthand_resolver" : "",
+  "proxy":"http://proxy.corp.globant.com:3128",
+  "https-proxy":"http://proxy.corp.globant.com:3128"
+
+}
