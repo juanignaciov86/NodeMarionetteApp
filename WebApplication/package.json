@@ -1,15 +1,19 @@
 {
-  "private": true,
-  "dependencies": {
-    "backbone": "^1.1.2",
-    "backbone.localstorage": "^1.1.6",
-    "backbone.marionette": "^2.4.1",
-    "backbone.radio": "^1.0.1",
-    "jquery": "^1.11.2",
-    "requirejs": "^2.1.15",
-    "requirejs-text": "^2.0.12",
-    "todomvc-app-css": "^1.0.1",
-    "todomvc-common": "^1.0.1",
-    "underscore": "^1.6.0"
-  }
+    "name": "MarionetteTest",
+    "version": "0.0.1",
+    "readme": "Text description for your application",
+    "devDependencies": {
+        "chai": "latest",
+        "chai-jq": "latest",
+        "grunt": "latest",
+        "grunt-cli": "latest",
+        "grunt-contrib-compass": "latest",
+        "grunt-contrib-copy": "latest",
+        "grunt-contrib-requirejs": "latest",
+        "grunt-contrib-uglify": "latest",
+        "grunt-css": "latest",
+        "mocha": "latest",
+        "sinon": "latest",
+        "sinon-chai": "latest"
+    }
 }

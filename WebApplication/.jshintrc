@@ -1,0 +1,16 @@
+{
+    "maxerr": 50,
+    "bitwise": true,
+    "forin": true,
+    "indent": 4,
+    "multistr": true,
+    "scripturl": true,
+    "maxcomplexity": 4,
+    "curly": true,
+    "browser": true,
+    "eqeqeq": true,
+    "unused": true,
+    "undef": true,
+    "shadow": true,
+    "predef": ["define", "require", "LAN", "$", "Backbone", "_", "console"]
+}

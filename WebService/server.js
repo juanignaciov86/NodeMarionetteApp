@@ -6,10 +6,11 @@ var app     = express();
 
 app.get('/scrape', function(req, res){
 	// Let's scrape Anchorman 2
-	var url = 'http://www.imdb.com/title/tt1229340/';
+	var url = 'http://www.imdb.com/chart/top';
 
-	url = "http://www.wunderground.com/cgi-bin/findweather/getForecast?&query=" + 02888;
-	var json = { degrees : "", type : "Fahrenheit", url : url};
+	// url = "http://www.wunderground.com/cgi-bin/findweather/getForecast?&query=" + 02888;
+	// var json = { degrees : "", type : "Fahrenheit", url : url};
+	var json = { movie: "", image: ""};
 
 	request(url, function (error, response, body) {
 	  if (!error) {
