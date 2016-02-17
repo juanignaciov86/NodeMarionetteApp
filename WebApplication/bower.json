@@ -1,11 +1,14 @@
 {
-    "name": "Marionette Test",
-    "version": "0.0.1",
-    "dependencies": {
-        "jquery": "latest",
-        "backbone": "latest",
-        "underscore": "latest",
-        "requirejs": "latest",
-        "marionette": "latest"
-    }
+  "name": "Marionette Test",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "latest",
+    "backbone": "latest",
+    "underscore": "latest",
+    "requirejs": "latest",
+    "marionette": "latest",
+    "handlebars": "~4.0.5",
+    "text": "requirejs-text#~2.0.14",
+    "require-handlebars-plugin": "~1.0.0"
+  }
 }
