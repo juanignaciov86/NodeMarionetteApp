@@ -12,5 +12,12 @@
     "unused": true,
     "undef": true,
     "shadow": true,
-    "predef": ["define", "require", "LAN", "$", "Backbone", "_", "console"]
+    "predef": ["define", "require", "LAN", "$", "Backbone", "_", "console"],
+
+    // Environments
+    "jasmine"       : true,    // Jasmine
+    "jquery"        : true,    // jQuery
+    "mocha"         : true,     // Mocha
+    "node"          : true    // Node.js
+
 }
