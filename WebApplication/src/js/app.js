@@ -47,11 +47,11 @@ define(function(require) {
       },
 
       itemAdded: function() {
-        this.render();
         this.model.set({
           assignee: '',
           text: ''
         });
+        //this.render();
       }
     });
 
